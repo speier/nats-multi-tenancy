@@ -3,7 +3,7 @@ version: "3.8"
 services:
   nats:
     image: nats-streaming:latest
-    command: --config /etc/nats/nats-main.conf --user a
+    command: --config /etc/nats/nats-main.conf --user sys
     volumes:
       - ${PWD}/conf/nats-main.conf:/etc/nats/nats-main.conf
     ports:

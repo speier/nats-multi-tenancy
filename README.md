@@ -1,8 +1,8 @@
-# nats with leafnodes
+# Multi tenancy with NATS
 
-Just a small proof of concept to test nats with leafnodes.
+Small proof of concept to test nats multi tenancy (accounts, imports/exports and leafnodes)
 
-## usage
+## Usage
 
 Services are running in docker, to spin up the cluster simply run:
 
